@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(#3104d3af 10%, rgb(128, 62, 0) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation-name: dangreus;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+/* @keyframes dangreus {
+
+    0%,
+    100% {
+        transform: rotate(360deg);
+    }
+
+    25% {
+        transform: scaleX(2)
+    }
+
+    50% {
+        transform: rotateY(2);
+    }
+} */
